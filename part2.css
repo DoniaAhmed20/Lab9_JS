@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap");
+body{
+    background-color: rgb(231, 231, 225);
+    place-items: center;
+    display: grid;
+}
+.container{
+    background-color: rgb(251, 251, 250);
+    width: 770px;
+    height: 322px;
+    margin-top: 100px;
+    box-shadow: 0 0 2px 2px  rgb(94, 91, 91);
+}
+.container2{
+    background-color: rgb(221, 223, 224);
+    width: 600px;  
+    height: 180px;
+    margin-left: 83px;
+    padding-top: 10px;
+    margin-top: 62px;
+    border-radius: 7px;
+    border: 1px solid rgb(187, 185, 185);
+
+}
+.text_color{
+    font-size: x-small;
+    margin-left: 50px;
+}
+.day_wrapper{
+    justify-content: space-between;
+    /* display: flex; */
+    font-family: "Orbitron", sans-serif;
+    font-size: 15px;
+    color: rgb(192, 195, 197);
+
+}
+.time_wrapper{
+    color: rgb(34, 34, 35);
+    font-family: "Orbitron";
+    
+}
+.time{
+    font-size: 77px;
+    margin-left: 17px;     /*30*/
+    background-color: rgb(221, 223, 224);
+    width: 300px;
+    height: 90px;
+    position: fixed;
+    margin-top: 10px;
+}
+.mid{
+    margin-left: 497px;
+    margin-top: -24px;
+    display: block;
+}
+.material-icons{
+    color: rgb(175, 176, 176);
+    margin-top: 80px;
+    margin-left: 50px;
+
+
+}
+h2{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(155, 154, 154);
+    font-size: 30px;
+}
+.set{
+    margin-left: -370px;
+    width: 130px;
+    height: 35px;
+    color: aliceblue;
+    background-color: rgb(164, 165, 165);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    border: 1px solid rgb(133, 133, 132);
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(154, 153, 151, 0.1);
+    color: rgb(19, 19, 19);
+}
+.stop{
+    display: inline;
+    margin-top: -34px;
+    margin-left: 342px;
+    width: 130px;
+    height: 35px;
+    color: aliceblue;
+    background-color: rgb(164, 165, 165);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    border: 1px solid rgb(133, 133, 132);
+}
+
+
+
+
+#alarm-container {
+	text-align:center;
+    font-family: Verdana;
+    font-size: 0.6em;
+    padding: 0.7em;
+    color: white;
+}
+
+label {
+	display:inline-block;
+    margin-top: -12px;
+}
+#alarm-container h2{
+    color: rgb(124, 124, 122);
+    font-family: "Orbitron", sans-serif;
+    margin-top: -20px;
+}
+#alarmhrs, #alarmmins, #alarmsecs, #ampm{
+    width: 43px;
+    height: 40px;
+}
+label div{
+    width: 80px;
+    height: 70px;
+    background-color: rgb(181, 183, 182);
+}
+label span{
+    font-size: 11px;
+    font-weight: bold;
+}
+
+input{
+    text-align: center;
+    margin-top: 3px;
+}
+select{
+    width: 70px;
+    height: 40px;
+    margin-top: 6px;
+}
+

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="part2.css">
+    <!-- <link href='https://css.gg/alarm.css' rel='stylesheet'> -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100&family=Dancing+Script:wght@500&family=Libre+Baskerville&family=Playfair+Display&family=Radio+Canada:wght@500&display=swap" rel="stylesheet">
+    <title>Digital alarm</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container2">
+            <div class="day_wrapper">
+                <span class="text_color">SUN</span>
+                <span class="text_color">MON</span>
+                <span class="text_color">TUE</span>
+                <span class="text_color">WED</span>
+                <span class="text_color">THU</span>
+                <span class="text_color">FRI</span>
+                <span class="text_color">SAT</span>
+            </div>
+            <span class="text_color" id="showDate"></span>
+            <div class="time_wrapper">
+                <!-- <i class="gg-alarm"></i> -->
+                <i class="material-icons">alarm</i>
+                <span class="time" id="time"></span>
+                <span class="mid" id="mid"></span>
+            </div>
+        </div>
+    </div>
+    <h2>Digital Clock</h2>
+
+
+<!--     
+		<div id='alarm-container'>
+			<h2>Set Alarm After</h2>
+				<label>
+					<div>
+                        <span>HOURS</span><br>
+					    <select id='alarmhrs' ></select>
+					</div>
+				</label>
+				<label>
+					<div>
+                        <span>MINUTES</span><br>
+					    <select id='alarmmins' ></select>
+					</div>
+				</label>
+				<label>
+					<div>
+                        <span>SECONDS</span><br>
+					    <select id='alarmsecs' ></select>
+					</div>
+				</label>
+				<label>
+					<div>
+                        <span>MERIDIEM</span><br>
+						<select id="ampm">
+							<option value="AM">AM</option>
+							<option value="PM">PM</option>
+						</select>
+					</div>
+				</label>
+			</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+		<div id='alarm-container'>
+			<h2>Set Alarm After</h2>
+				<label>
+					<div>
+                        <span>HOURS</span><br>
+					    <input id='alarmhrs' placeholder="0" value=""></input>
+					</div>
+				</label>
+				<label>
+					<div>
+                        <span>MINUTES</span><br>
+					    <input id='alarmmins' placeholder="0" value=""></input>
+					</div>
+				</label>
+				<label>
+					<div>
+                        <span>SECONDS</span><br>
+					    <input id='alarmsecs' placeholder="0" value=""></input>
+					</div>
+				</label>
+				<label>
+					<div>
+                        <span>MERIDIEM</span><br>
+						<select id="ampm">
+							<option value="AM">AM</option>
+							<option value="PM">PM</option>
+						</select>
+					</div>
+				</label>
+			</div>
+		
+    <button class="set" id='setButton' onClick='alarmSet()'>set alarm</button>
+    <button class="stop"  id='clearButton' onClick='alarmClear()'>stop alarm</button>
+    <script src="part2.js"></script>
+</body>
+</html>
+
+
+
+
+<!-- onclick="setAlarm()" -->
